@@ -1,0 +1,42 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* header */
+.logo {
+  font-size: 22px;
+}
+
+.wedding-wrapper h1,
+.package-wrapper h1 {
+  color: #0a0826;
+}
+
+/* Package Styles  */
+.package-wrapper button {
+  background-color: #fef5fa;
+}
+
+.package-wrapper span i {
+  background-color: #edebf9;
+  color: #5243c2;
+}
+.package-card {
+    transition: 0.8s ease-out;
+  }
+.package-card:hover {
+  background: url(icons/watermark.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: #3f87f5;
+  border-radius: 26px;
+  color: #fff;
+  box-shadow: 0px 10px 20px 0px #3f87f58c;
+}
+.package-card:hover h1 {
+  color: #fff;
+}
+
+/* Client Card */
+.client-card {
+  box-shadow: 0px 0px 20px 0px #808080a3;
+}
